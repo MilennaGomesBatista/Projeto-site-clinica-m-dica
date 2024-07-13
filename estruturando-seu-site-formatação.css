@@ -1,0 +1,86 @@
+/* Estilos gerais */
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px; /* Adicionei um padding para espaçamento interno */
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(130, 204, 204);
+    padding: 10px;
+}
+
+.main {
+    width: 85%;
+    padding: 20px; /* Adicionei um padding para espaçamento interno */
+}
+
+.header {
+    background-color: ghostwhite;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    width: 100%;
+    height: 56%;
+}
+
+.content {
+    background-color: rgb(125, 188, 177);
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+
+    background-color: white;
+    min-height: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+
+.social-icons img {
+    width: 40px; /* Ajuste a largura das imagens conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+footer a{
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.marcaçãodeconsultas{
+    color: red;
+}

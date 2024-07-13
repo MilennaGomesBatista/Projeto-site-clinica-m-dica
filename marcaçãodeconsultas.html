@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de Consultas</title>
+    <style>
+        /* Estilo global para a página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: rgb(182, 220, 214) /* Cor de fundo */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos específicos para a segunda página */
+        body.second-page {
+            background-color: #e0e0ff; /* Cor de fundo diferente para a segunda página */
+        }
+
+        .second-page h1 {
+            color: black;
+        }
+
+        .second-page p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marcação de Consultas</h1>
+    
+
+    <!-- Segunda página como âncora interna -->
+    <div id="second-page" class="second-page">
+        <h3>Preencha com seus dados para agendar sua consulta.</h3>
+    </div>
+</body>
+</html>
+</head>
+<body>
+        <label>Nome completo:</label><input type="text"/><br><br>
+        <label>Number:</label><input type="number" min="0" step="5" max="99"/><br><br>
+        <label>EMAIL:</label><input type="email" /><br><br>
+        <label>Especialidade:</label><input type="text"/><br><br>
+        <label>DATE:</label><input type="date"/><br><br>
+        <label>Horario:</label><input type="time" id="hora" name="hora"><br><br>
+
+        <div class="button-container">
+            <button id="yesButton" class="yes" onclick="selectOption('yes')">Plano de saúde</button>
+            <button id="noButton" class="no" onclick="selectOption('no')">Particular</button>
+        </div>
+
+        <br><br>
+        
+        <div class="message-box">
+            <textarea placeholder="Descreva brevemente sua necessidade."></textarea>
+            <button>Enviar</button>
+        </div>
+        <br>
+        <br>
+        <label>Button:</label><input type="submit" value="Enviar"/><br>
+
+        
+
+
+    </form>
+    <br>
+    <br>
+
+    <footer><a href="Estruturando-seu-htm-formatação.html">Inicio</a></footer>
+</body>
+</html>
